@@ -48,10 +48,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/lian/ros_ws/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/lian/ros_ws/build
+=======
+CMAKE_SOURCE_DIR = /home/a/catkin_ws/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/a/catkin_ws/build
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,9 +142,15 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lian/ros_ws/build/CMakeFiles /home/lian/ros_ws/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lian/ros_ws/build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/a/catkin_ws/build/CMakeFiles /home/a/catkin_ws/build/CMakeFiles/progress.marks
+	$(MAKE) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/a/catkin_ws/build/CMakeFiles 0
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
 .PHONY : all
 
 # The main clean target
@@ -283,6 +296,7 @@ gtest_main/fast:
 .PHONY : gtest_main/fast
 
 #=============================================================================
+<<<<<<< HEAD
 # Target rules for targets named turtle_broadcaster
 
 # Build rule for target.
@@ -348,6 +362,8 @@ std_srvs_generate_messages_eus/fast:
 .PHONY : std_srvs_generate_messages_eus/fast
 
 #=============================================================================
+=======
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
 # Target rules for targets named tf_generate_messages_cpp
 
 # Build rule for target.
@@ -374,6 +390,7 @@ actionlib_generate_messages_eus/fast:
 .PHONY : actionlib_generate_messages_eus/fast
 
 #=============================================================================
+<<<<<<< HEAD
 # Target rules for targets named turtlesim_generate_messages_nodejs
 
 # Build rule for target.
@@ -387,6 +404,8 @@ turtlesim_generate_messages_nodejs/fast:
 .PHONY : turtlesim_generate_messages_nodejs/fast
 
 #=============================================================================
+=======
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
 # Target rules for targets named rosgraph_msgs_generate_messages_lisp
 
 # Build rule for target.
@@ -517,6 +536,7 @@ roscpp_generate_messages_lisp/fast:
 .PHONY : roscpp_generate_messages_lisp/fast
 
 #=============================================================================
+<<<<<<< HEAD
 # Target rules for targets named std_srvs_generate_messages_py
 
 # Build rule for target.
@@ -530,6 +550,8 @@ std_srvs_generate_messages_py/fast:
 .PHONY : std_srvs_generate_messages_py/fast
 
 #=============================================================================
+=======
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
 # Target rules for targets named std_msgs_generate_messages_eus
 
 # Build rule for target.
@@ -556,6 +578,7 @@ rosgraph_msgs_generate_messages_nodejs/fast:
 .PHONY : rosgraph_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
+<<<<<<< HEAD
 # Target rules for targets named std_srvs_generate_messages_lisp
 
 # Build rule for target.
@@ -569,6 +592,8 @@ std_srvs_generate_messages_lisp/fast:
 .PHONY : std_srvs_generate_messages_lisp/fast
 
 #=============================================================================
+=======
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
 # Target rules for targets named geometry_msgs_generate_messages_lisp
 
 # Build rule for target.
@@ -582,6 +607,7 @@ geometry_msgs_generate_messages_lisp/fast:
 .PHONY : geometry_msgs_generate_messages_lisp/fast
 
 #=============================================================================
+<<<<<<< HEAD
 # Target rules for targets named turtlesim_generate_messages_lisp
 
 # Build rule for target.
@@ -595,6 +621,8 @@ turtlesim_generate_messages_lisp/fast:
 .PHONY : turtlesim_generate_messages_lisp/fast
 
 #=============================================================================
+=======
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
 # Target rules for targets named std_msgs_generate_messages_lisp
 
 # Build rule for target.
@@ -777,6 +805,7 @@ tf_generate_messages_nodejs/fast:
 .PHONY : tf_generate_messages_nodejs/fast
 
 #=============================================================================
+<<<<<<< HEAD
 # Target rules for targets named turtlesim_generate_messages_py
 
 # Build rule for target.
@@ -790,6 +819,8 @@ turtlesim_generate_messages_py/fast:
 .PHONY : turtlesim_generate_messages_py/fast
 
 #=============================================================================
+=======
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
 # Target rules for targets named tf_generate_messages_py
 
 # Build rule for target.
@@ -842,6 +873,22 @@ tf2_msgs_generate_messages_lisp/fast:
 .PHONY : tf2_msgs_generate_messages_lisp/fast
 
 #=============================================================================
+<<<<<<< HEAD
+=======
+# Target rules for targets named turtle_broadcaster
+
+# Build rule for target.
+turtle_broadcaster: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 turtle_broadcaster
+.PHONY : turtle_broadcaster
+
+# fast build rule for target.
+turtle_broadcaster/fast:
+	$(MAKE) -f turtle_follow/CMakeFiles/turtle_broadcaster.dir/build.make turtle_follow/CMakeFiles/turtle_broadcaster.dir/build
+.PHONY : turtle_broadcaster/fast
+
+#=============================================================================
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
 # Target rules for targets named sensor_msgs_generate_messages_py
 
 # Build rule for target.
@@ -1010,6 +1057,7 @@ tf2_msgs_generate_messages_py/fast:
 	$(MAKE) -f turtle_follow/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make turtle_follow/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
 .PHONY : tf2_msgs_generate_messages_py/fast
 
+<<<<<<< HEAD
 #=============================================================================
 # Target rules for targets named turtlesim_generate_messages_cpp
 
@@ -1023,6 +1071,8 @@ turtlesim_generate_messages_cpp/fast:
 	$(MAKE) -f turtle_follow/CMakeFiles/turtlesim_generate_messages_cpp.dir/build.make turtle_follow/CMakeFiles/turtlesim_generate_messages_cpp.dir/build
 .PHONY : turtlesim_generate_messages_cpp/fast
 
+=======
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1045,6 +1095,7 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
+<<<<<<< HEAD
 	@echo "... turtle_broadcaster"
 	@echo "... std_srvs_generate_messages_nodejs"
 	@echo "... std_srvs_generate_messages_cpp"
@@ -1053,6 +1104,10 @@ help:
 	@echo "... tf_generate_messages_cpp"
 	@echo "... actionlib_generate_messages_eus"
 	@echo "... turtlesim_generate_messages_nodejs"
+=======
+	@echo "... tf_generate_messages_cpp"
+	@echo "... actionlib_generate_messages_eus"
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... roscpp_generate_messages_nodejs"
 	@echo "... tf_generate_messages_eus"
@@ -1063,12 +1118,18 @@ help:
 	@echo "... roscpp_generate_messages_eus"
 	@echo "... geometry_msgs_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_lisp"
+<<<<<<< HEAD
 	@echo "... std_srvs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_eus"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
 	@echo "... std_srvs_generate_messages_lisp"
 	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... turtlesim_generate_messages_lisp"
+=======
+	@echo "... std_msgs_generate_messages_eus"
+	@echo "... rosgraph_msgs_generate_messages_nodejs"
+	@echo "... geometry_msgs_generate_messages_lisp"
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... geometry_msgs_generate_messages_eus"
@@ -1083,11 +1144,18 @@ help:
 	@echo "... tf2_msgs_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_py"
 	@echo "... tf_generate_messages_nodejs"
+<<<<<<< HEAD
 	@echo "... turtlesim_generate_messages_py"
+=======
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
 	@echo "... tf_generate_messages_py"
 	@echo "... sensor_msgs_generate_messages_cpp"
 	@echo "... sensor_msgs_generate_messages_lisp"
 	@echo "... tf2_msgs_generate_messages_lisp"
+<<<<<<< HEAD
+=======
+	@echo "... turtle_broadcaster"
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
 	@echo "... sensor_msgs_generate_messages_py"
 	@echo "... actionlib_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_cpp"
@@ -1101,7 +1169,10 @@ help:
 	@echo "... tf2_msgs_generate_messages_eus"
 	@echo "... actionlib_msgs_generate_messages_nodejs"
 	@echo "... tf2_msgs_generate_messages_py"
+<<<<<<< HEAD
 	@echo "... turtlesim_generate_messages_cpp"
+=======
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
 .PHONY : help
 
 

@@ -15,9 +15,15 @@ set(CMAKE_MAKEFILE_DEPENDS
   "catkin_generated/order_packages.cmake"
   "turtle_follow/catkin_generated/ordered_paths.cmake"
   "turtle_follow/catkin_generated/package.cmake"
+<<<<<<< HEAD
   "/home/lian/ros_ws/src/CMakeLists.txt"
   "/home/lian/ros_ws/src/turtle_follow/CMakeLists.txt"
   "/home/lian/ros_ws/src/turtle_follow/package.xml"
+=======
+  "/home/a/catkin_ws/src/CMakeLists.txt"
+  "/home/a/catkin_ws/src/turtle_follow/CMakeLists.txt"
+  "/home/a/catkin_ws/src/turtle_follow/package.xml"
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
   "/opt/ros/kinetic/share/actionlib/cmake/actionlib-msg-extras.cmake"
   "/opt/ros/kinetic/share/actionlib/cmake/actionlibConfig-version.cmake"
   "/opt/ros/kinetic/share/actionlib/cmake/actionlibConfig.cmake"
@@ -137,9 +143,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/ros/kinetic/share/std_msgs/cmake/std_msgs-msg-extras.cmake"
   "/opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig-version.cmake"
   "/opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig.cmake"
+<<<<<<< HEAD
   "/opt/ros/kinetic/share/std_srvs/cmake/std_srvs-msg-extras.cmake"
   "/opt/ros/kinetic/share/std_srvs/cmake/std_srvsConfig-version.cmake"
   "/opt/ros/kinetic/share/std_srvs/cmake/std_srvsConfig.cmake"
+=======
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
   "/opt/ros/kinetic/share/tf/cmake/tf-msg-extras.cmake"
   "/opt/ros/kinetic/share/tf/cmake/tfConfig-version.cmake"
   "/opt/ros/kinetic/share/tf/cmake/tfConfig.cmake"
@@ -152,9 +161,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/ros/kinetic/share/tf2_py/cmake/tf2_pyConfig.cmake"
   "/opt/ros/kinetic/share/tf2_ros/cmake/tf2_rosConfig-version.cmake"
   "/opt/ros/kinetic/share/tf2_ros/cmake/tf2_rosConfig.cmake"
+<<<<<<< HEAD
   "/opt/ros/kinetic/share/turtlesim/cmake/turtlesim-msg-extras.cmake"
   "/opt/ros/kinetic/share/turtlesim/cmake/turtlesimConfig-version.cmake"
   "/opt/ros/kinetic/share/turtlesim/cmake/turtlesimConfig.cmake"
+=======
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcpp-extras.cmake"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcppConfig-version.cmake"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcppConfig.cmake"
@@ -239,6 +251,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "gtest/CMakeFiles/gmock_main.dir/DependInfo.cmake"
   "gtest/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
   "gtest/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+<<<<<<< HEAD
   "turtle_follow/CMakeFiles/turtle_broadcaster.dir/DependInfo.cmake"
   "turtle_follow/CMakeFiles/std_srvs_generate_messages_nodejs.dir/DependInfo.cmake"
   "turtle_follow/CMakeFiles/std_srvs_generate_messages_cpp.dir/DependInfo.cmake"
@@ -247,6 +260,10 @@ set(CMAKE_DEPEND_INFO_FILES
   "turtle_follow/CMakeFiles/tf_generate_messages_cpp.dir/DependInfo.cmake"
   "turtle_follow/CMakeFiles/actionlib_generate_messages_eus.dir/DependInfo.cmake"
   "turtle_follow/CMakeFiles/turtlesim_generate_messages_nodejs.dir/DependInfo.cmake"
+=======
+  "turtle_follow/CMakeFiles/tf_generate_messages_cpp.dir/DependInfo.cmake"
+  "turtle_follow/CMakeFiles/actionlib_generate_messages_eus.dir/DependInfo.cmake"
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
   "turtle_follow/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/DependInfo.cmake"
   "turtle_follow/CMakeFiles/roscpp_generate_messages_nodejs.dir/DependInfo.cmake"
   "turtle_follow/CMakeFiles/tf_generate_messages_eus.dir/DependInfo.cmake"
@@ -257,12 +274,18 @@ set(CMAKE_DEPEND_INFO_FILES
   "turtle_follow/CMakeFiles/roscpp_generate_messages_eus.dir/DependInfo.cmake"
   "turtle_follow/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/DependInfo.cmake"
   "turtle_follow/CMakeFiles/roscpp_generate_messages_lisp.dir/DependInfo.cmake"
+<<<<<<< HEAD
   "turtle_follow/CMakeFiles/std_srvs_generate_messages_py.dir/DependInfo.cmake"
   "turtle_follow/CMakeFiles/std_msgs_generate_messages_eus.dir/DependInfo.cmake"
   "turtle_follow/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/DependInfo.cmake"
   "turtle_follow/CMakeFiles/std_srvs_generate_messages_lisp.dir/DependInfo.cmake"
   "turtle_follow/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/DependInfo.cmake"
   "turtle_follow/CMakeFiles/turtlesim_generate_messages_lisp.dir/DependInfo.cmake"
+=======
+  "turtle_follow/CMakeFiles/std_msgs_generate_messages_eus.dir/DependInfo.cmake"
+  "turtle_follow/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/DependInfo.cmake"
+  "turtle_follow/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/DependInfo.cmake"
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
   "turtle_follow/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake"
   "turtle_follow/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake"
   "turtle_follow/CMakeFiles/geometry_msgs_generate_messages_eus.dir/DependInfo.cmake"
@@ -277,11 +300,18 @@ set(CMAKE_DEPEND_INFO_FILES
   "turtle_follow/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/DependInfo.cmake"
   "turtle_follow/CMakeFiles/roscpp_generate_messages_py.dir/DependInfo.cmake"
   "turtle_follow/CMakeFiles/tf_generate_messages_nodejs.dir/DependInfo.cmake"
+<<<<<<< HEAD
   "turtle_follow/CMakeFiles/turtlesim_generate_messages_py.dir/DependInfo.cmake"
+=======
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
   "turtle_follow/CMakeFiles/tf_generate_messages_py.dir/DependInfo.cmake"
   "turtle_follow/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/DependInfo.cmake"
   "turtle_follow/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/DependInfo.cmake"
   "turtle_follow/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/DependInfo.cmake"
+<<<<<<< HEAD
+=======
+  "turtle_follow/CMakeFiles/turtle_broadcaster.dir/DependInfo.cmake"
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
   "turtle_follow/CMakeFiles/sensor_msgs_generate_messages_py.dir/DependInfo.cmake"
   "turtle_follow/CMakeFiles/actionlib_generate_messages_cpp.dir/DependInfo.cmake"
   "turtle_follow/CMakeFiles/std_msgs_generate_messages_cpp.dir/DependInfo.cmake"
@@ -295,5 +325,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "turtle_follow/CMakeFiles/tf2_msgs_generate_messages_eus.dir/DependInfo.cmake"
   "turtle_follow/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/DependInfo.cmake"
   "turtle_follow/CMakeFiles/tf2_msgs_generate_messages_py.dir/DependInfo.cmake"
+<<<<<<< HEAD
   "turtle_follow/CMakeFiles/turtlesim_generate_messages_cpp.dir/DependInfo.cmake"
+=======
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
   )

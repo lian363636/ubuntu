@@ -67,14 +67,23 @@ set(turtle_follow_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
+<<<<<<< HEAD
   set(turtle_follow_SOURCE_PREFIX /home/lian/ros_ws/src/turtle_follow)
   set(turtle_follow_DEVEL_PREFIX /home/lian/ros_ws/devel)
+=======
+  set(turtle_follow_SOURCE_PREFIX /home/a/catkin_ws/src/turtle_follow)
+  set(turtle_follow_DEVEL_PREFIX /home/a/catkin_ws/devel)
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
   set(turtle_follow_INSTALL_PREFIX "")
   set(turtle_follow_PREFIX ${turtle_follow_DEVEL_PREFIX})
 else()
   set(turtle_follow_SOURCE_PREFIX "")
   set(turtle_follow_DEVEL_PREFIX "")
+<<<<<<< HEAD
   set(turtle_follow_INSTALL_PREFIX /home/lian/ros_ws/install)
+=======
+  set(turtle_follow_INSTALL_PREFIX /home/a/catkin_ws/install)
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
   set(turtle_follow_PREFIX ${turtle_follow_INSTALL_PREFIX})
 endif()
 
@@ -99,7 +108,11 @@ if(NOT " " STREQUAL " ")
   elseif(NOT " " STREQUAL " ")
     set(_report "Check the website '' for information and consider reporting the problem.")
   else()
+<<<<<<< HEAD
     set(_report "Report the problem to the maintainer 'lian <lian@todo.todo>' and request to fix the problem.")
+=======
+    set(_report "Report the problem to the maintainer 'a <a@todo.todo>' and request to fix the problem.")
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
   endif()
   foreach(idir ${_include_dirs})
     if(IS_ABSOLUTE ${idir} AND IS_DIRECTORY ${idir})
@@ -110,7 +123,11 @@ if(NOT " " STREQUAL " ")
         message(FATAL_ERROR "Project 'turtle_follow' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
+<<<<<<< HEAD
       message(FATAL_ERROR "Project 'turtle_follow' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/lian/ros_ws/src/turtle_follow/${idir}'.  ${_report}")
+=======
+      message(FATAL_ERROR "Project 'turtle_follow' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/a/catkin_ws/src/turtle_follow/${idir}'.  ${_report}")
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
     endif()
     _list_append_unique(turtle_follow_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +171,11 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
+<<<<<<< HEAD
     foreach(path /home/lian/ros_ws/devel/lib;/opt/ros/kinetic/lib)
+=======
+    foreach(path /home/a/catkin_ws/devel/lib;/home/a/tutorial_ws/devel/lib;/opt/ros/kinetic/lib)
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

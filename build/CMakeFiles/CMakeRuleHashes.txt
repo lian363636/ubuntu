@@ -1,2 +1,6 @@
 # Hashes of file build rules.
+<<<<<<< HEAD
 edf4b26d7cac060c9904d57faf99cf3a CMakeFiles/clean_test_results
+=======
+1fb5a5cc5040446779993224ef7ec968 CMakeFiles/clean_test_results
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e

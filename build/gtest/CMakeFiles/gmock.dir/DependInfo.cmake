@@ -4,8 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+<<<<<<< HEAD
   "/usr/src/gmock/src/gmock-all.cc" "/home/lian/ros_ws/build/gtest/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
   "/usr/src/gtest/src/gtest-all.cc" "/home/lian/ros_ws/build/gtest/CMakeFiles/gmock.dir/usr/src/gtest/src/gtest-all.cc.o"
+=======
+  "/usr/src/gmock/src/gmock-all.cc" "/home/a/catkin_ws/build/gtest/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+  "/usr/src/gtest/src/gtest-all.cc" "/home/a/catkin_ws/build/gtest/CMakeFiles/gmock.dir/usr/src/gtest/src/gtest-all.cc.o"
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

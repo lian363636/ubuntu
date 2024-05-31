@@ -1,2 +1,6 @@
 turtle_follow
+<<<<<<< HEAD
 -DCATKIN_DEVEL_PREFIX=/home/lian/ros_ws/devel -DCMAKE_INSTALL_PREFIX=/home/lian/ros_ws/install -G Unix Makefiles
+=======
+-DCATKIN_DEVEL_PREFIX=/home/lian/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/lian/catkin_ws/install -G Unix Makefiles
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e

@@ -1,2 +1,6 @@
 - setup-file:
+<<<<<<< HEAD
     local-name: /home/lian/ros_ws/devel/setup.sh
+=======
+    local-name: /home/a/catkin_ws/devel/setup.sh
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e

@@ -2,7 +2,11 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
+<<<<<<< HEAD
   set(CMAKE_INSTALL_PREFIX "/home/lian/ros_ws/install")
+=======
+  set(CMAKE_INSTALL_PREFIX "/home/a/catkin_ws/install")
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

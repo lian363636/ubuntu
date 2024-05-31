@@ -43,10 +43,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/lian/ros_ws/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/lian/ros_ws/build
+=======
+CMAKE_SOURCE_DIR = /home/a/catkin_ws/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/a/catkin_ws/build
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
 
 # Utility rule file for std_srvs_generate_messages_cpp.
 
@@ -63,10 +70,18 @@ turtle_follow/CMakeFiles/std_srvs_generate_messages_cpp.dir/build: std_srvs_gene
 .PHONY : turtle_follow/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
 
 turtle_follow/CMakeFiles/std_srvs_generate_messages_cpp.dir/clean:
+<<<<<<< HEAD
 	cd /home/lian/ros_ws/build/turtle_follow && $(CMAKE_COMMAND) -P CMakeFiles/std_srvs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : turtle_follow/CMakeFiles/std_srvs_generate_messages_cpp.dir/clean
 
 turtle_follow/CMakeFiles/std_srvs_generate_messages_cpp.dir/depend:
 	cd /home/lian/ros_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lian/ros_ws/src /home/lian/ros_ws/src/turtle_follow /home/lian/ros_ws/build /home/lian/ros_ws/build/turtle_follow /home/lian/ros_ws/build/turtle_follow/CMakeFiles/std_srvs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/a/catkin_ws/build/turtle_follow && $(CMAKE_COMMAND) -P CMakeFiles/std_srvs_generate_messages_cpp.dir/cmake_clean.cmake
+.PHONY : turtle_follow/CMakeFiles/std_srvs_generate_messages_cpp.dir/clean
+
+turtle_follow/CMakeFiles/std_srvs_generate_messages_cpp.dir/depend:
+	cd /home/a/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/a/catkin_ws/src /home/a/catkin_ws/src/turtle_follow /home/a/catkin_ws/build /home/a/catkin_ws/build/turtle_follow /home/a/catkin_ws/build/turtle_follow/CMakeFiles/std_srvs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
 .PHONY : turtle_follow/CMakeFiles/std_srvs_generate_messages_cpp.dir/depend
 

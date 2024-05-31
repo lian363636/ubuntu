@@ -10,8 +10,14 @@ project(turtle_follow)
 find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
   roscpp
+<<<<<<< HEAD
   tf
   turtlesim
+=======
+  rospy
+  std_msgs
+  tf
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
 )
 
 ## System dependencies are found with CMake's conventions
@@ -71,7 +77,11 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate added messages and services with any dependencies listed here
 # generate_messages(
 #   DEPENDENCIES
+<<<<<<< HEAD
 #   geometry_msgs
+=======
+#   geometry_msgs#   std_msgs
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
 # )
 
 ################################################
@@ -106,7 +116,11 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES turtle_follow
+<<<<<<< HEAD
 #  CATKIN_DEPENDS geometry_msgs roscpp tf turtlesim
+=======
+#  CATKIN_DEPENDS geometry_msgs roscpp rospy std_msgs tf
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
 #  DEPENDS system_lib
 )
 
@@ -130,13 +144,21 @@ include_directories(
 ## as an example, code may need to be generated before libraries
 ## either from message generation or dynamic reconfigure
 # add_dependencies(${PROJECT_NAME} ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+<<<<<<< HEAD
+=======
+add_executable(turtle_broadcaster src/turtle_broadcaster.cpp)
+add_executable(turtle_listener src/turtle_listener.cpp)
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
 
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
 # add_executable(${PROJECT_NAME}_node src/turtle_follow_node.cpp)
+<<<<<<< HEAD
 add_executable(turtle_broadcaster src/turtle_broadcaster.cpp)
 add_executable(turtle_listener src/turtle_listener.cpp)
+=======
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -215,5 +237,8 @@ add_executable(turtle_listener src/turtle_listener.cpp)
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
