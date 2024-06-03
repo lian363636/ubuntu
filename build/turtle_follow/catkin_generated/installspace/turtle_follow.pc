@@ -1,0 +1,12 @@
+<<<<<<< HEAD
+prefix=/home/lian/ros_ws/install
+=======
+prefix=/home/a/catkin_ws/install
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
+
+Name: turtle_follow
+Description: Description of turtle_follow
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
