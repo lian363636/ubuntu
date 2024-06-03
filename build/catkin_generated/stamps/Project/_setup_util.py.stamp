@@ -268,7 +268,19 @@ if __name__ == '__main__':
 
         if not args.local:
             # environment at generation time
+<<<<<<< HEAD
             CMAKE_PREFIX_PATH = r'/opt/ros/kinetic'.split(';')
+=======
+<<<<<<< HEAD
+            CMAKE_PREFIX_PATH = r'/opt/ros/kinetic'.split(';')
+=======
+<<<<<<< HEAD
+            CMAKE_PREFIX_PATH = r'/opt/ros/kinetic'.split(';')
+=======
+            CMAKE_PREFIX_PATH = r'/home/a/tutorial_ws/devel;/opt/ros/kinetic'.split(';')
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
+>>>>>>> e7b3a2760bb50d4aa9780186e6f4b9c470248e2c
+>>>>>>> 7fd3f594ab455853003ae66a508bfa5d1eaccf3c
         else:
             # don't consider any other prefix path than this one
             CMAKE_PREFIX_PATH = []

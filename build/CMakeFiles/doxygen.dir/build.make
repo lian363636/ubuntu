@@ -43,10 +43,24 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/lian/catkin_ROS/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/lian/catkin_ROS/build
+=======
+<<<<<<< HEAD
+CMAKE_SOURCE_DIR = /home/lian/ros_ws/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/lian/ros_ws/build
+=======
+CMAKE_SOURCE_DIR = /home/a/catkin_ws/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/a/catkin_ws/build
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
+>>>>>>> 7fd3f594ab455853003ae66a508bfa5d1eaccf3c
 
 # Utility rule file for doxygen.
 
@@ -67,6 +81,14 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
+<<<<<<< HEAD
 	cd /home/lian/catkin_ROS/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lian/catkin_ROS/src /home/lian/catkin_ROS/src /home/lian/catkin_ROS/build /home/lian/catkin_ROS/build /home/lian/catkin_ROS/build/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+=======
+<<<<<<< HEAD
+	cd /home/lian/ros_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lian/ros_ws/src /home/lian/ros_ws/src /home/lian/ros_ws/build /home/lian/ros_ws/build /home/lian/ros_ws/build/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/a/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/a/catkin_ws/src /home/a/catkin_ws/src /home/a/catkin_ws/build /home/a/catkin_ws/build /home/a/catkin_ws/build/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
+>>>>>>> 7fd3f594ab455853003ae66a508bfa5d1eaccf3c
 .PHONY : CMakeFiles/doxygen.dir/depend
 

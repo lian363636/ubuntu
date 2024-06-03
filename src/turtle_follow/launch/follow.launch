@@ -1,0 +1,26 @@
+<launch> 
+<!-- 海⻳仿真器 --> 
+<node pkg="turtlesim" type="turtlesim_node" name="sim"/>
+<!-- 键盘控制 --> 
+<node pkg="turtlesim" type="turtle_teleop_key" name="teleop" output="screen"/> 
+
+<!-- 两只海⻳的tf⼴播 --> 
+<node pkg="turtle_follow" type="turtle_broadcaster" args="turtle1" name="turtle1_tf_broadcaster" />
+<node pkg="turtle_follow" type="turtle_broadcaster" args="turtle2" name="turtle2_tf_broadcaster" />
+<node pkg="turtle_follow" type="turtle_broadcaster" args="turtle3" name="turtle3_tf_broadcaster" />
+
+
+
+<!-- 监听tf⼴播，并且控制turtle2移动 -->
+<node pkg="turtle_follow" type="turtle_listener" args="turtle2  turtle1" name="listener1" />
+<node pkg="turtle_follow" type="turtle_listener" args="turtle3  turtle2" name="listener2" />
+
+
+
+</launch>
+
+<<<<<<< HEAD
+
+                       
+=======
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e

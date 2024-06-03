@@ -4,9 +4,21 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+<<<<<<< HEAD
   "/usr/src/gmock/src/gmock-all.cc" "/home/lian/catkin_ROS/build/gtest/CMakeFiles/gmock_main.dir/src/gmock-all.cc.o"
   "/usr/src/gmock/src/gmock_main.cc" "/home/lian/catkin_ROS/build/gtest/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
   "/usr/src/gtest/src/gtest-all.cc" "/home/lian/catkin_ROS/build/gtest/CMakeFiles/gmock_main.dir/usr/src/gtest/src/gtest-all.cc.o"
+=======
+<<<<<<< HEAD
+  "/usr/src/gmock/src/gmock-all.cc" "/home/lian/ros_ws/build/gtest/CMakeFiles/gmock_main.dir/src/gmock-all.cc.o"
+  "/usr/src/gmock/src/gmock_main.cc" "/home/lian/ros_ws/build/gtest/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+  "/usr/src/gtest/src/gtest-all.cc" "/home/lian/ros_ws/build/gtest/CMakeFiles/gmock_main.dir/usr/src/gtest/src/gtest-all.cc.o"
+=======
+  "/usr/src/gmock/src/gmock-all.cc" "/home/a/catkin_ws/build/gtest/CMakeFiles/gmock_main.dir/src/gmock-all.cc.o"
+  "/usr/src/gmock/src/gmock_main.cc" "/home/a/catkin_ws/build/gtest/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+  "/usr/src/gtest/src/gtest-all.cc" "/home/a/catkin_ws/build/gtest/CMakeFiles/gmock_main.dir/usr/src/gtest/src/gtest-all.cc.o"
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
+>>>>>>> 7fd3f594ab455853003ae66a508bfa5d1eaccf3c
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

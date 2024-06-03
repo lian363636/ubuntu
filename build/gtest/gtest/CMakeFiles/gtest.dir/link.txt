@@ -1,1 +1,9 @@
+<<<<<<< HEAD
 /usr/bin/c++  -fPIC   -shared -Wl,-soname,libgtest.so -o libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o  -L/home/lian/catkin_ROS/build/gtest/gtest/src -lpthread -Wl,-rpath,/home/lian/catkin_ROS/build/gtest/gtest/src 
+=======
+<<<<<<< HEAD
+/usr/bin/c++  -fPIC   -shared -Wl,-soname,libgtest.so -o libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o  -L/home/lian/ros_ws/build/gtest/gtest/src -lpthread -Wl,-rpath,/home/lian/ros_ws/build/gtest/gtest/src 
+=======
+/usr/bin/c++  -fPIC   -shared -Wl,-soname,libgtest.so -o libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o  -L/home/a/catkin_ws/build/gtest/gtest/src -lpthread -Wl,-rpath,/home/a/catkin_ws/build/gtest/gtest/src 
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
+>>>>>>> 7fd3f594ab455853003ae66a508bfa5d1eaccf3c

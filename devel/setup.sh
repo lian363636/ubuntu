@@ -11,7 +11,19 @@
 
 # since this file is sourced either use the provided _CATKIN_SETUP_DIR
 # or fall back to the destination set at configure time
+<<<<<<< HEAD
 : ${_CATKIN_SETUP_DIR:=/home/lian/catkin_ROS/devel}
+=======
+<<<<<<< HEAD
+: ${_CATKIN_SETUP_DIR:=/home/lian/ros_ws/devel}
+=======
+<<<<<<< HEAD
+: ${_CATKIN_SETUP_DIR:=/home/lian/ros_ws/devel}
+=======
+: ${_CATKIN_SETUP_DIR:=/home/a/catkin_ws/devel}
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
+>>>>>>> e7b3a2760bb50d4aa9780186e6f4b9c470248e2c
+>>>>>>> 7fd3f594ab455853003ae66a508bfa5d1eaccf3c
 _SETUP_UTIL="$_CATKIN_SETUP_DIR/_setup_util.py"
 unset _CATKIN_SETUP_DIR
 

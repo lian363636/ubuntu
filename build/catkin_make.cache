@@ -1,2 +1,16 @@
+<<<<<<< HEAD
 helloworld
 -DCATKIN_DEVEL_PREFIX=/home/lian/catkin_ROS/devel -DCMAKE_INSTALL_PREFIX=/home/lian/catkin_ROS/install -G Unix Makefiles
+=======
+<<<<<<< HEAD
+ROS-Academy-for-Beginners/action_demo:ROS-Academy-for-Beginners/msgs_demo:ROS-Academy-for-Beginners/name_demo:ROS-Academy-for-Beginners/navigation_sim_demo:ROS-Academy-for-Beginners/orbslam2_demo:ROS-Academy-for-Beginners/param_demo:ROS-Academy-for-Beginners/robot_sim_demo:ROS-Academy-for-Beginners/ros_academy_for_beginners:ROS-Academy-for-Beginners/rtabmap_demo:ROS-Academy-for-Beginners/service_demo:ROS-Academy-for-Beginners/slam_sim_demo:ROS-Academy-for-Beginners/tf_demo:ROS-Academy-for-Beginners/tf_follower:ROS-Academy-for-Beginners/topic_demo:ROS-Academy-for-Beginners/urdf_demo
+-DCATKIN_DEVEL_PREFIX=/home/lian/ros_ws/devel -DCMAKE_INSTALL_PREFIX=/home/lian/ros_ws/install -G Unix Makefiles
+=======
+turtle_follow
+<<<<<<< HEAD
+-DCATKIN_DEVEL_PREFIX=/home/lian/ros_ws/devel -DCMAKE_INSTALL_PREFIX=/home/lian/ros_ws/install -G Unix Makefiles
+=======
+-DCATKIN_DEVEL_PREFIX=/home/lian/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/lian/catkin_ws/install -G Unix Makefiles
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
+>>>>>>> e7b3a2760bb50d4aa9780186e6f4b9c470248e2c
+>>>>>>> 7fd3f594ab455853003ae66a508bfa5d1eaccf3c

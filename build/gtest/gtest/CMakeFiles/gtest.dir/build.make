@@ -43,10 +43,24 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/lian/catkin_ROS/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/lian/catkin_ROS/build
+=======
+<<<<<<< HEAD
+CMAKE_SOURCE_DIR = /home/lian/ros_ws/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/lian/ros_ws/build
+=======
+CMAKE_SOURCE_DIR = /home/a/catkin_ws/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/a/catkin_ws/build
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
+>>>>>>> 7fd3f594ab455853003ae66a508bfa5d1eaccf3c
 
 # Include any dependencies generated for this target.
 include gtest/gtest/CMakeFiles/gtest.dir/depend.make
@@ -59,6 +73,7 @@ include gtest/gtest/CMakeFiles/gtest.dir/flags.make
 
 gtest/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: gtest/gtest/CMakeFiles/gtest.dir/flags.make
 gtest/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: /usr/src/gtest/src/gtest-all.cc
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lian/catkin_ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object gtest/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
 	cd /home/lian/catkin_ROS/build/gtest/gtest && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/gtest/src/gtest-all.cc
 
@@ -69,6 +84,31 @@ gtest/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.i: cmake_force
 gtest/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtest.dir/src/gtest-all.cc.s"
 	cd /home/lian/catkin_ROS/build/gtest/gtest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/src/gtest/src/gtest-all.cc -o CMakeFiles/gtest.dir/src/gtest-all.cc.s
+=======
+<<<<<<< HEAD
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lian/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object gtest/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+	cd /home/lian/ros_ws/build/gtest/gtest && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/gtest/src/gtest-all.cc
+
+gtest/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtest.dir/src/gtest-all.cc.i"
+	cd /home/lian/ros_ws/build/gtest/gtest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/src/gtest/src/gtest-all.cc > CMakeFiles/gtest.dir/src/gtest-all.cc.i
+
+gtest/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtest.dir/src/gtest-all.cc.s"
+	cd /home/lian/ros_ws/build/gtest/gtest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/src/gtest/src/gtest-all.cc -o CMakeFiles/gtest.dir/src/gtest-all.cc.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object gtest/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+	cd /home/a/catkin_ws/build/gtest/gtest && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/gtest/src/gtest-all.cc
+
+gtest/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtest.dir/src/gtest-all.cc.i"
+	cd /home/a/catkin_ws/build/gtest/gtest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/src/gtest/src/gtest-all.cc > CMakeFiles/gtest.dir/src/gtest-all.cc.i
+
+gtest/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtest.dir/src/gtest-all.cc.s"
+	cd /home/a/catkin_ws/build/gtest/gtest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/src/gtest/src/gtest-all.cc -o CMakeFiles/gtest.dir/src/gtest-all.cc.s
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
+>>>>>>> 7fd3f594ab455853003ae66a508bfa5d1eaccf3c
 
 gtest/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o.requires:
 
@@ -91,8 +131,18 @@ gtest_EXTERNAL_OBJECTS =
 gtest/gtest/libgtest.so: gtest/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
 gtest/gtest/libgtest.so: gtest/gtest/CMakeFiles/gtest.dir/build.make
 gtest/gtest/libgtest.so: gtest/gtest/CMakeFiles/gtest.dir/link.txt
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lian/catkin_ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libgtest.so"
 	cd /home/lian/catkin_ROS/build/gtest/gtest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest.dir/link.txt --verbose=$(VERBOSE)
+=======
+<<<<<<< HEAD
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lian/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libgtest.so"
+	cd /home/lian/ros_ws/build/gtest/gtest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest.dir/link.txt --verbose=$(VERBOSE)
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/a/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libgtest.so"
+	cd /home/a/catkin_ws/build/gtest/gtest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest.dir/link.txt --verbose=$(VERBOSE)
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
+>>>>>>> 7fd3f594ab455853003ae66a508bfa5d1eaccf3c
 
 # Rule to build all files generated by this target.
 gtest/gtest/CMakeFiles/gtest.dir/build: gtest/gtest/libgtest.so
@@ -104,10 +154,26 @@ gtest/gtest/CMakeFiles/gtest.dir/requires: gtest/gtest/CMakeFiles/gtest.dir/src/
 .PHONY : gtest/gtest/CMakeFiles/gtest.dir/requires
 
 gtest/gtest/CMakeFiles/gtest.dir/clean:
+<<<<<<< HEAD
 	cd /home/lian/catkin_ROS/build/gtest/gtest && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean.cmake
 .PHONY : gtest/gtest/CMakeFiles/gtest.dir/clean
 
 gtest/gtest/CMakeFiles/gtest.dir/depend:
 	cd /home/lian/catkin_ROS/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lian/catkin_ROS/src /usr/src/gtest /home/lian/catkin_ROS/build /home/lian/catkin_ROS/build/gtest/gtest /home/lian/catkin_ROS/build/gtest/gtest/CMakeFiles/gtest.dir/DependInfo.cmake --color=$(COLOR)
+=======
+<<<<<<< HEAD
+	cd /home/lian/ros_ws/build/gtest/gtest && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean.cmake
+.PHONY : gtest/gtest/CMakeFiles/gtest.dir/clean
+
+gtest/gtest/CMakeFiles/gtest.dir/depend:
+	cd /home/lian/ros_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lian/ros_ws/src /usr/src/gtest /home/lian/ros_ws/build /home/lian/ros_ws/build/gtest/gtest /home/lian/ros_ws/build/gtest/gtest/CMakeFiles/gtest.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/a/catkin_ws/build/gtest/gtest && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean.cmake
+.PHONY : gtest/gtest/CMakeFiles/gtest.dir/clean
+
+gtest/gtest/CMakeFiles/gtest.dir/depend:
+	cd /home/a/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/a/catkin_ws/src /usr/src/gtest /home/a/catkin_ws/build /home/a/catkin_ws/build/gtest/gtest /home/a/catkin_ws/build/gtest/gtest/CMakeFiles/gtest.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> c7b4822037f679cb6c1df5267602ab97035f5d7e
+>>>>>>> 7fd3f594ab455853003ae66a508bfa5d1eaccf3c
 .PHONY : gtest/gtest/CMakeFiles/gtest.dir/depend
 
